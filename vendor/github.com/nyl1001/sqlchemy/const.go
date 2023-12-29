@@ -14,11 +14,6 @@
 
 package sqlchemy
 
-import (
-	"strconv"
-	"strings"
-)
-
 const (
 	// SQL_OP_AND represents AND operator
 	SQL_OP_AND = "AND"
@@ -28,6 +23,8 @@ const (
 	SQL_OP_NOT = "NOT"
 	// SQL_OP_LIKE represents LIKE operator
 	SQL_OP_LIKE = "LIKE"
+	// SQL_OP_REGEXP represents REGEXP operator
+	SQL_OP_REGEXP = "REGEXP"
 	// SQL_OP_IN represents IN operator
 	SQL_OP_IN = "IN"
 	// SQL_OP_NOTIN represents NOT IN operator
@@ -54,10 +51,13 @@ const (
 	// TAG_NAME is a field tag that indicates the column name of this field
 	TAG_NAME = "name"
 	// TAG_WIDTH is a field tag that indicates the width of the column, like VARCHAR(15)
+	// Supported by: mysql
 	TAG_WIDTH = "width"
 	// TAG_TEXT_LENGTH is a field tag that indicates the length of a text column
+	// Supported by: mysql
 	TAG_TEXT_LENGTH = "length"
 	// TAG_CHARSET is a field tag that indicates the charset of a text column
+	// Supported by: mysql
 	TAG_CHARSET = "charset"
 	// TAG_PRECISION is a field tag that indicates the precision of a float column
 	TAG_PRECISION = "precision"
@@ -82,28 +82,3 @@ const (
 	// TAG_ALLOW_ZERO is a field tag that indicates whether the column allow zero value
 	TAG_ALLOW_ZERO = "allow_zero"
 )
-
-var (
-	// INT_WIDTH_DEFAULT records the default width of integer type
-	INT_WIDTH_DEFAULT = map[string]int{
-		"TINYINT":  4,
-		"SMALLINT": 6,
-		"INT":      11,
-		"BIGINT":   20,
-	}
-	// UNSIGNED_INT_WIDTH_DEFAULT records the default width of unsigned integer type
-	UNSIGNED_INT_WIDTH_DEFAULT = map[string]int{
-		"TINYINT":  3,
-		"SMALLINT": 5,
-		"INT":      10,
-		"BIGINT":   20,
-	}
-)
-
-func intWidthString(typeStr string) string {
-	return strconv.FormatInt(int64(INT_WIDTH_DEFAULT[strings.ToUpper(typeStr)]), 10)
-}
-
-func uintWidthString(typeStr string) string {
-	return strconv.FormatInt(int64(UNSIGNED_INT_WIDTH_DEFAULT[strings.ToUpper(typeStr)]), 10)
-}

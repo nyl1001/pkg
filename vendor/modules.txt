@@ -33,9 +33,6 @@ github.com/go-playground/universal-translator
 # github.com/go-playground/validator/v10 v10.4.1
 ## explicit; go 1.13
 github.com/go-playground/validator/v10
-# github.com/go-sql-driver/mysql v1.7.1
-## explicit; go 1.13
-github.com/go-sql-driver/mysql
 # github.com/golang-plus/errors v1.0.0
 ## explicit
 github.com/golang-plus/errors
@@ -86,8 +83,8 @@ github.com/modern-go/reflect2
 # github.com/mozillazg/go-pinyin v0.19.0
 ## explicit; go 1.11
 github.com/mozillazg/go-pinyin
-# github.com/nyl1001/sqlchemy v1.0.1
-## explicit
+# github.com/nyl1001/sqlchemy v1.1.4
+## explicit; go 1.17
 github.com/nyl1001/sqlchemy
 # github.com/pkg/errors v0.9.1
 ## explicit
@@ -183,20 +180,7 @@ gopkg.in/yaml.v2
 # moul.io/http2curl v1.0.0
 ## explicit
 moul.io/http2curl
-# yunion.io/x/jsonutils v1.0.0
-## explicit; go 1.12
-yunion.io/x/jsonutils
 # yunion.io/x/log v1.0.1-0.20230411060016-feb3f46ab361
 ## explicit; go 1.12
 yunion.io/x/log
 yunion.io/x/log/hooks
-# yunion.io/x/pkg v1.0.0
-## explicit; go 1.18
-yunion.io/x/pkg/errors
-yunion.io/x/pkg/gotypes
-yunion.io/x/pkg/sortedmap
-yunion.io/x/pkg/tristate
-yunion.io/x/pkg/util/reflectutils
-yunion.io/x/pkg/util/regutils
-yunion.io/x/pkg/util/timeutils
-yunion.io/x/pkg/utils
