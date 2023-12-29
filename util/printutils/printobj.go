@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"yunion.io/x/jsonutils"
+	"github.com/nyl1001/jsonutils"
 )
 
 func PrintInterfaceList(data interface{}, total, offset, limit int, columns []string) {

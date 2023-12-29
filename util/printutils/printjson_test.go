@@ -17,7 +17,7 @@ package printutils
 import (
 	"testing"
 
-	"yunion.io/x/jsonutils"
+	"github.com/nyl1001/jsonutils"
 )
 
 func TestPrintJSONObjectRecursive(t *testing.T) {
