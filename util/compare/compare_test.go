@@ -17,8 +17,8 @@ package compare
 import (
 	"testing"
 
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/utils"
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/utils"
 )
 
 type LocalRes struct {

@@ -1,4 +1,4 @@
-module yunion.io/x/pkg
+module github.com/nyl1001/pkg
 
 go 1.18
 
@@ -8,15 +8,14 @@ require (
 	github.com/golang-plus/uuid v1.0.0
 	github.com/ma314smith/signedxml v0.0.0-20210628192057-abc5b481ae1c
 	github.com/mozillazg/go-pinyin v0.19.0
+	github.com/nyl1001/sqlchemy v1.0.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.12.1
 	github.com/tredoe/osutil/v2 v2.0.0-rc.16
 	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
 	golang.org/x/text v0.3.6
-	moul.io/http2curl/v2 v2.3.0
 	yunion.io/x/jsonutils v0.0.0-20220106020632-953b71a4c3a8
 	yunion.io/x/log v1.0.0
-	yunion.io/x/sqlchemy v1.0.1
 )
 
 require (
@@ -50,4 +49,5 @@ require (
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
 	google.golang.org/protobuf v1.26.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
+	yunion.io/x/pkg v0.0.0-20200814072949-4f1b541857d6 // indirect
 )

@@ -19,7 +19,7 @@ package prometheus
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"yunion.io/x/pkg/util/version"
+	"github.com/nyl1001/pkg/util/version"
 )
 
 func init() {

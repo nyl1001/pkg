@@ -26,9 +26,9 @@ import (
 	"hash"
 	"io/ioutil"
 
-	"yunion.io/x/pkg/errors"
+	"github.com/nyl1001/pkg/errors"
 
-	"yunion.io/x/pkg/util/seclib"
+	"github.com/nyl1001/pkg/util/seclib"
 )
 
 func (saml *SSAMLInstance) parseKeys() error {

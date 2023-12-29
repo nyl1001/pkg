@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"yunion.io/x/pkg/trace"
+	"github.com/nyl1001/pkg/trace"
 )
 
 type AppContextKey string

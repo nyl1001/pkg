@@ -19,8 +19,8 @@ import (
 	"strings"
 	"sync"
 
-	"yunion.io/x/pkg/gotypes"
-	"yunion.io/x/pkg/utils"
+	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/utils"
 )
 
 // SStructFieldInfo describes struct field, especially behavior for (json)

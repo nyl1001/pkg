@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package goroutine_pool // import "yunion.io/x/pkg/util/goroutine_pool"
+package goroutine_pool // import "github.com/nyl1001/pkg/util/goroutine_pool"

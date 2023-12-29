@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/util/netutils"
 	"yunion.io/x/jsonutils"
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/util/netutils"
 )
 
 type SErrorMsg struct {

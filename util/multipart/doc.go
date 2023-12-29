@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package multipart // import "yunion.io/x/pkg/util/multipart"
+package multipart // import "github.com/nyl1001/pkg/util/multipart"

@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package rand // import "yunion.io/x/pkg/util/rand"
+package rand // import "github.com/nyl1001/pkg/util/rand"

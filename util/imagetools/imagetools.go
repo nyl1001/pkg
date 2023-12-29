@@ -19,7 +19,7 @@ import (
 	"regexp"
 	"strings"
 
-	"yunion.io/x/pkg/util/osprofile"
+	"github.com/nyl1001/pkg/util/osprofile"
 )
 
 func normalizeOsArch(osArch string, imageName string) string {

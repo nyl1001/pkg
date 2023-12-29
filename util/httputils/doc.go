@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package httputils // import "yunion.io/x/pkg/util/httputils"
+package httputils // import "github.com/nyl1001/pkg/util/httputils"

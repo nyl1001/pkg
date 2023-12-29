@@ -18,7 +18,7 @@ import (
 	"sort"
 	"testing"
 
-	"yunion.io/x/pkg/util/netutils"
+	"github.com/nyl1001/pkg/util/netutils"
 )
 
 func TestSecRuleSet_AllowList(t *testing.T) {

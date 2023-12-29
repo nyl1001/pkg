@@ -17,7 +17,7 @@ package cache
 import (
 	"testing"
 
-	"yunion.io/x/pkg/util/sets"
+	"github.com/nyl1001/pkg/util/sets"
 )
 
 // Test public interface

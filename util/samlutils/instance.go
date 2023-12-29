@@ -18,7 +18,7 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 
-	"yunion.io/x/pkg/errors"
+	"github.com/nyl1001/pkg/errors"
 )
 
 type SSAMLInstance struct {

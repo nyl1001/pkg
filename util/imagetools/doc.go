@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package imagetools // import "yunion.io/x/pkg/util/imagetools"
+package imagetools // import "github.com/nyl1001/pkg/util/imagetools"

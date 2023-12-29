@@ -1,3 +1,4 @@
+//go:build !windows
 // +build !windows
 
 package signalutils
@@ -5,8 +6,8 @@ package signalutils
 import (
 	"syscall"
 
+	"github.com/nyl1001/pkg/utils"
 	"yunion.io/x/log"
-	"yunion.io/x/pkg/utils"
 )
 
 func SetDumpStackSignal() {

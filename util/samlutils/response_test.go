@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"yunion.io/x/pkg/util/seclib"
+	"github.com/nyl1001/pkg/util/seclib"
 )
 
 var (

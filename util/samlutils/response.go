@@ -18,8 +18,8 @@ import (
 	"encoding/xml"
 	"time"
 
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/util/timeutils"
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/util/timeutils"
 )
 
 type SSAMLResponseAttribute struct {

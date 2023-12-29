@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/util/regutils"
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/util/regutils"
 )
 
 func UtcNow() time.Time {

@@ -19,7 +19,7 @@ import (
 	"net"
 	"sort"
 
-	"yunion.io/x/pkg/util/netutils"
+	"github.com/nyl1001/pkg/util/netutils"
 )
 
 type SecurityRuleSet []SecurityRule
@@ -80,9 +80,8 @@ func (srs SecurityRuleSet) equals(srs1 SecurityRuleSet) bool {
 //
 // requirements on srs
 //
-//  - ordered by priority
-//  - same direction
-//
+//   - ordered by priority
+//   - same direction
 func (srs SecurityRuleSet) AllowList() SecurityRuleSet {
 	srs = srs.uniq()
 	r := SecurityRuleSet{}
@@ -136,11 +135,11 @@ func (srs SecurityRuleSet) uniq() SecurityRuleSet {
 
 // collapse result of AllowList
 //
-//  - same direction
-//  - same action
+//   - same direction
 //
-//  As they share the same action, priority's influence on order of rules can be ignored
+//   - same action
 //
+//     As they share the same action, priority's influence on order of rules can be ignored
 func (srs SecurityRuleSet) collapse() SecurityRuleSet {
 	srs1 := make(SecurityRuleSet, len(srs))
 	copy(srs1, srs)

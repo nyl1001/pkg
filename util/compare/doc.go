@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package compare // import "yunion.io/x/pkg/util/compare"
+package compare // import "github.com/nyl1001/pkg/util/compare"

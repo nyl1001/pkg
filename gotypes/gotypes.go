@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"yunion.io/x/pkg/util/timeutils"
-	"yunion.io/x/pkg/utils"
+	"github.com/nyl1001/pkg/util/timeutils"
+	"github.com/nyl1001/pkg/utils"
 )
 
 const (
@@ -297,8 +297,8 @@ func GetInstanceTypeName(instance interface{}) string {
 //
 // This is for the following use cases, not for general type conversion
 //
-//  - Convert []Interface to []ConcreteType
-//  - Convert []ConcreateType to []Interface
+//   - Convert []Interface to []ConcreteType
+//   - Convert []ConcreateType to []Interface
 func ConvertSliceElemType(vals interface{}, val interface{}) interface{} {
 	origVals := reflect.ValueOf(vals)
 	origType := origVals.Type()

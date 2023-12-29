@@ -22,7 +22,7 @@ import (
 
 	"github.com/tredoe/osutil/v2/userutil/crypt/sha512_crypt"
 
-	"yunion.io/x/pkg/utils"
+	"github.com/nyl1001/pkg/utils"
 )
 
 const (

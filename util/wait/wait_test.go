@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"yunion.io/x/pkg/util/runtime"
+	"github.com/nyl1001/pkg/util/runtime"
 )
 
 func TestUntil(t *testing.T) {

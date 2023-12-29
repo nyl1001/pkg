@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"yunion.io/x/pkg/util/regutils"
+	"github.com/nyl1001/pkg/util/regutils"
 )
 
 func parseSizeStr(sizeStr string, defaultUnit byte, base int) (int, error) {

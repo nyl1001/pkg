@@ -17,7 +17,7 @@ package workqueue
 import (
 	"sync"
 
-	utilruntime "yunion.io/x/pkg/util/runtime"
+	utilruntime "github.com/nyl1001/pkg/util/runtime"
 )
 
 type DoWorkPieceFunc func(piece int)

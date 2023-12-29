@@ -17,7 +17,7 @@ package imagetools
 import (
 	"testing"
 
-	"yunion.io/x/pkg/util/osprofile"
+	"github.com/nyl1001/pkg/util/osprofile"
 )
 
 func TestNormalizeImageInfo(t *testing.T) {

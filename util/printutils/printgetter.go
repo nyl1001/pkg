@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/utils"
 	"yunion.io/x/jsonutils"
-	"yunion.io/x/pkg/gotypes"
-	"yunion.io/x/pkg/utils"
 )
 
 func getter2json(obj interface{}) jsonutils.JSONObject {

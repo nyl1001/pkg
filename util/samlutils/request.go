@@ -18,7 +18,7 @@ import (
 	"encoding/xml"
 	"time"
 
-	"yunion.io/x/pkg/util/timeutils"
+	"github.com/nyl1001/pkg/util/timeutils"
 )
 
 type SSAMLRequestInput struct {

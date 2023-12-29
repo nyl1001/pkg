@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/util/regutils"
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/util/regutils"
 )
 
 const macChars = "0123456789abcdef"

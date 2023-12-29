@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"yunion.io/x/pkg/utils"
+	"github.com/nyl1001/pkg/utils"
 )
 
 type SVMDKInfo struct {

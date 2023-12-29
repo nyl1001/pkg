@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package vmdkutils // import "yunion.io/x/pkg/util/vmdkutils"
+package vmdkutils // import "github.com/nyl1001/pkg/util/vmdkutils"

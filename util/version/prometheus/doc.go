@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package prometheus // import "yunion.io/x/pkg/util/version/prometheus"
+package prometheus // import "github.com/nyl1001/pkg/util/version/prometheus"

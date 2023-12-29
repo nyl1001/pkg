@@ -34,14 +34,12 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"moul.io/http2curl/v2"
-
+	"github.com/nyl1001/pkg/appctx"
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/trace"
+	"github.com/nyl1001/pkg/utils"
 	"yunion.io/x/jsonutils"
-	"yunion.io/x/pkg/appctx"
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/gotypes"
-	"yunion.io/x/pkg/trace"
-	"yunion.io/x/pkg/utils"
 )
 
 type THttpMethod string

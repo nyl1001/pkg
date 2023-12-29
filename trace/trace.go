@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"yunion.io/x/pkg/util/timeutils"
-	"yunion.io/x/pkg/utils"
+	"github.com/nyl1001/pkg/util/timeutils"
+	"github.com/nyl1001/pkg/utils"
 )
 
 type TraceKind string

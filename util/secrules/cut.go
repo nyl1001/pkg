@@ -20,7 +20,7 @@ import (
 	"net"
 	"sort"
 
-	"yunion.io/x/pkg/util/netutils"
+	"github.com/nyl1001/pkg/util/netutils"
 )
 
 type securityRuleCut struct {
