@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/nyl1001/jsonutils"
 	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/jsonutils"
 	"github.com/nyl1001/pkg/utils"
 )
 

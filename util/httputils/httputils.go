@@ -34,12 +34,13 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/nyl1001/jsonutils"
 	"github.com/nyl1001/pkg/appctx"
 	"github.com/nyl1001/pkg/errors"
 	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/jsonutils"
 	"github.com/nyl1001/pkg/trace"
 	"github.com/nyl1001/pkg/utils"
+	"moul.io/http2curl"
 )
 
 type THttpMethod string

@@ -24,8 +24,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/nyl1001/jsonutils"
 	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/jsonutils"
 )
 
 // Signature and API related constants.

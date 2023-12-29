@@ -33,14 +33,12 @@ github.com/go-playground/universal-translator
 # github.com/go-playground/validator/v10 v10.4.1
 ## explicit; go 1.13
 github.com/go-playground/validator/v10
-# github.com/go-sql-driver/mysql v1.6.0
-## explicit; go 1.10
+# github.com/go-sql-driver/mysql v1.7.1
+## explicit; go 1.13
 github.com/go-sql-driver/mysql
 # github.com/golang-plus/errors v1.0.0
 ## explicit
 github.com/golang-plus/errors
-# github.com/golang-plus/testing v1.0.0
-## explicit
 # github.com/golang-plus/uuid v1.0.0
 ## explicit
 github.com/golang-plus/uuid
@@ -61,25 +59,22 @@ github.com/golang/protobuf/ptypes/timestamp
 # github.com/json-iterator/go v1.1.12
 ## explicit; go 1.12
 github.com/json-iterator/go
-# github.com/konsorten/go-windows-terminal-sequences v1.0.3
-## explicit
-github.com/konsorten/go-windows-terminal-sequences
 # github.com/leodido/go-urn v1.2.0
 ## explicit; go 1.13
 github.com/leodido/go-urn
 # github.com/ma314smith/signedxml v0.0.0-20210628192057-abc5b481ae1c
 ## explicit
 github.com/ma314smith/signedxml
-# github.com/mattn/go-colorable v0.1.9
-## explicit; go 1.13
+# github.com/mattn/go-colorable v0.1.13
+## explicit; go 1.15
 github.com/mattn/go-colorable
-# github.com/mattn/go-isatty v0.0.14
-## explicit; go 1.12
+# github.com/mattn/go-isatty v0.0.20
+## explicit; go 1.15
 github.com/mattn/go-isatty
 # github.com/matttproud/golang_protobuf_extensions v1.0.1
 ## explicit
 github.com/matttproud/golang_protobuf_extensions/pbutil
-# github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b
+# github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d
 ## explicit
 github.com/mgutz/ansi
 # github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
@@ -115,7 +110,7 @@ github.com/prometheus/common/model
 github.com/prometheus/procfs
 github.com/prometheus/procfs/internal/fs
 github.com/prometheus/procfs/internal/util
-# github.com/sirupsen/logrus v1.6.0
+# github.com/sirupsen/logrus v1.9.3
 ## explicit; go 1.13
 github.com/sirupsen/logrus
 # github.com/smartystreets/goconvey v1.7.2
@@ -128,22 +123,28 @@ github.com/tredoe/osutil/v2/userutil/crypt/sha512_crypt
 # github.com/ugorji/go/codec v1.1.7
 ## explicit
 github.com/ugorji/go/codec
-# golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
-## explicit; go 1.11
+# golang.org/x/crypto v0.17.0
+## explicit; go 1.18
 golang.org/x/crypto/sha3
 golang.org/x/crypto/ssh/terminal
-# golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
-## explicit; go 1.17
+# golang.org/x/sys v0.15.0
+## explicit; go 1.18
 golang.org/x/sys/cpu
-golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/text v0.3.6
-## explicit; go 1.11
+# golang.org/x/term v0.15.0
+## explicit; go 1.18
+golang.org/x/term
+# golang.org/x/text v0.14.0
+## explicit; go 1.18
+golang.org/x/text/internal
+golang.org/x/text/internal/catmsg
 golang.org/x/text/internal/language
 golang.org/x/text/internal/language/compact
 golang.org/x/text/internal/tag
 golang.org/x/text/language
+golang.org/x/text/message/catalog
 # google.golang.org/protobuf v1.26.0
 ## explicit; go 1.9
 google.golang.org/protobuf/encoding/prototext
@@ -179,15 +180,18 @@ google.golang.org/protobuf/types/known/timestamppb
 # gopkg.in/yaml.v2 v2.4.0
 ## explicit; go 1.15
 gopkg.in/yaml.v2
-# yunion.io/x/jsonutils v0.0.0-20220106020632-953b71a4c3a8
+# moul.io/http2curl v1.0.0
+## explicit
+moul.io/http2curl
+# yunion.io/x/jsonutils v1.0.0
 ## explicit; go 1.12
 yunion.io/x/jsonutils
-# yunion.io/x/log v1.0.0
+# yunion.io/x/log v1.0.1-0.20230411060016-feb3f46ab361
 ## explicit; go 1.12
 yunion.io/x/log
 yunion.io/x/log/hooks
-# yunion.io/x/pkg v0.0.0-20200814072949-4f1b541857d6
-## explicit
+# yunion.io/x/pkg v1.0.0
+## explicit; go 1.18
 yunion.io/x/pkg/errors
 yunion.io/x/pkg/gotypes
 yunion.io/x/pkg/sortedmap

@@ -15,7 +15,7 @@
 package printutils
 
 import (
-	"github.com/nyl1001/jsonutils"
+	"github.com/nyl1001/pkg/jsonutils"
 )
 
 type ListResult struct {

@@ -4,17 +4,18 @@ go 1.18
 
 require (
 	github.com/fatih/color v1.13.0
+	github.com/ghodss/yaml v1.0.0
 	github.com/gin-gonic/gin v1.7.7
 	github.com/golang-plus/uuid v1.0.0
 	github.com/ma314smith/signedxml v0.0.0-20210628192057-abc5b481ae1c
 	github.com/mozillazg/go-pinyin v0.19.0
-	github.com/nyl1001/jsonutils v1.0.0
 	github.com/nyl1001/sqlchemy v1.0.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.12.1
 	github.com/tredoe/osutil/v2 v2.0.0-rc.16
 	golang.org/x/sys v0.15.0
 	golang.org/x/text v0.14.0
+	moul.io/http2curl v1.0.0
 	yunion.io/x/log v1.0.1-0.20230411060016-feb3f46ab361
 )
 
@@ -22,7 +23,6 @@ require (
 	github.com/beevik/etree v1.1.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
-	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
@@ -48,4 +48,6 @@ require (
 	golang.org/x/term v0.15.0 // indirect
 	google.golang.org/protobuf v1.26.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
+	yunion.io/x/jsonutils v1.0.0 // indirect
+	yunion.io/x/pkg v1.0.0 // indirect
 )
