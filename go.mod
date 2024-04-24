@@ -9,13 +9,13 @@ require (
 	github.com/golang-plus/uuid v1.0.0
 	github.com/ma314smith/signedxml v0.0.0-20210628192057-abc5b481ae1c
 	github.com/mozillazg/go-pinyin v0.19.0
+	github.com/nyl1001/log v1.0.1-0.20240424091847-32376287f195
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.12.1
 	github.com/tredoe/osutil/v2 v2.0.0-rc.16
-	golang.org/x/sys v0.15.0
+	golang.org/x/sys v0.19.0
 	golang.org/x/text v0.14.0
 	moul.io/http2curl v1.0.0
-	yunion.io/x/log v1.0.1-0.20230411060016-feb3f46ab361
 )
 
 require (
@@ -43,8 +43,8 @@ require (
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/smartystreets/goconvey v1.7.2 // indirect
 	github.com/ugorji/go/codec v1.1.7 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/term v0.15.0 // indirect
+	golang.org/x/crypto v0.22.0 // indirect
+	golang.org/x/term v0.19.0 // indirect
 	google.golang.org/protobuf v1.26.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

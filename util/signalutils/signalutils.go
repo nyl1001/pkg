@@ -20,7 +20,7 @@ import (
 	"runtime/debug"
 	"sync"
 
-	"yunion.io/x/log"
+	"github.com/nyl1001/log"
 )
 
 type SSignalManager struct {

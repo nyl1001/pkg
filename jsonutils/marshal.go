@@ -27,11 +27,11 @@ import (
 	"sort"
 	"time"
 
+	"github.com/nyl1001/log"
 	"github.com/nyl1001/pkg/gotypes"
 	"github.com/nyl1001/pkg/tristate"
 	"github.com/nyl1001/pkg/util/reflectutils"
 	"github.com/nyl1001/pkg/util/timeutils"
-	"yunion.io/x/log"
 )
 
 func (s *sJsonMarshalSession) marshalSlice(val reflect.Value, info *reflectutils.SStructFieldInfo, omitEmpty bool) JSONObject {

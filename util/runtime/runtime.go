@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"yunion.io/x/log"
+	"github.com/nyl1001/log"
 )
 
 var (

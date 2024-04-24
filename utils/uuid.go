@@ -18,7 +18,7 @@ import (
 	"crypto/rand"
 	"encoding/hex"
 
-	"yunion.io/x/log"
+	"github.com/nyl1001/log"
 )
 
 func GenRequestId(bytes int) string {

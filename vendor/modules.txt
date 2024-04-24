@@ -36,6 +36,8 @@ github.com/go-playground/validator/v10
 # github.com/golang-plus/errors v1.0.0
 ## explicit
 github.com/golang-plus/errors
+# github.com/golang-plus/testing v1.0.0
+## explicit
 # github.com/golang-plus/uuid v1.0.0
 ## explicit
 github.com/golang-plus/uuid
@@ -83,9 +85,10 @@ github.com/modern-go/reflect2
 # github.com/mozillazg/go-pinyin v0.19.0
 ## explicit; go 1.11
 github.com/mozillazg/go-pinyin
-# github.com/nyl1001/sqlchemy v1.1.4
-## explicit; go 1.17
-github.com/nyl1001/sqlchemy
+# github.com/nyl1001/log v1.0.1-0.20240424091847-32376287f195
+## explicit; go 1.12
+github.com/nyl1001/log
+github.com/nyl1001/log/hooks
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors
@@ -120,17 +123,17 @@ github.com/tredoe/osutil/v2/userutil/crypt/sha512_crypt
 # github.com/ugorji/go/codec v1.1.7
 ## explicit
 github.com/ugorji/go/codec
-# golang.org/x/crypto v0.17.0
+# golang.org/x/crypto v0.22.0
 ## explicit; go 1.18
 golang.org/x/crypto/sha3
 golang.org/x/crypto/ssh/terminal
-# golang.org/x/sys v0.15.0
+# golang.org/x/sys v0.19.0
 ## explicit; go 1.18
 golang.org/x/sys/cpu
 golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/term v0.15.0
+# golang.org/x/term v0.19.0
 ## explicit; go 1.18
 golang.org/x/term
 # golang.org/x/text v0.14.0
@@ -180,7 +183,3 @@ gopkg.in/yaml.v2
 # moul.io/http2curl v1.0.0
 ## explicit
 moul.io/http2curl
-# yunion.io/x/log v1.0.1-0.20230411060016-feb3f46ab361
-## explicit; go 1.12
-yunion.io/x/log
-yunion.io/x/log/hooks

@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/nyl1001/log"
 	"github.com/nyl1001/pkg/util/cache"
-	"yunion.io/x/log"
 )
 
 type Item interface {

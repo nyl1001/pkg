@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/nyl1001/log"
 	"github.com/nyl1001/pkg/util/regutils"
 	"github.com/nyl1001/pkg/utils"
-	"yunion.io/x/log"
 )
 
 type TSecurityRuleDirection string

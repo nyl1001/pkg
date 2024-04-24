@@ -17,7 +17,7 @@ package fifoutils
 import (
 	"errors"
 
-	"yunion.io/x/log"
+	"github.com/nyl1001/log"
 )
 
 var ErrEmpty error

@@ -17,7 +17,7 @@ package funcutils
 import (
 	"time"
 
-	"yunion.io/x/log"
+	"github.com/nyl1001/log"
 )
 
 func RetryUntilSuccess(callee func(), interval time.Duration, onSucc func()) {

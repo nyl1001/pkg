@@ -19,8 +19,8 @@ import (
 	"io/ioutil"
 	"os"
 
+	"github.com/nyl1001/log"
 	"github.com/nyl1001/pkg/errors"
-	"yunion.io/x/log"
 )
 
 type SReadSeeker struct {

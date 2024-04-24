@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/nyl1001/log"
 	"github.com/nyl1001/pkg/errors"
-	"yunion.io/x/log"
 )
 
 type valueElement struct {

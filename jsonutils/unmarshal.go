@@ -28,6 +28,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/nyl1001/log"
 	"github.com/nyl1001/pkg/errors"
 	"github.com/nyl1001/pkg/gotypes"
 	"github.com/nyl1001/pkg/sortedmap"
@@ -35,7 +36,6 @@ import (
 	"github.com/nyl1001/pkg/util/reflectutils"
 	"github.com/nyl1001/pkg/util/timeutils"
 	"github.com/nyl1001/pkg/utils"
-	"yunion.io/x/log"
 )
 
 func (this *JSONValue) Unmarshal(obj interface{}, keys ...string) error {

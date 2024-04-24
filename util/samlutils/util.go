@@ -25,9 +25,9 @@ import (
 
 	"github.com/ma314smith/signedxml"
 
+	"github.com/nyl1001/log"
 	"github.com/nyl1001/pkg/errors"
 	"github.com/nyl1001/pkg/utils"
-	"yunion.io/x/log"
 )
 
 func compressString(in string) string {

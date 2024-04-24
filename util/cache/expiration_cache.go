@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/nyl1001/log"
 	"github.com/nyl1001/pkg/util/clock"
-	"yunion.io/x/log"
 )
 
 // ExpirationCache implements the store interface

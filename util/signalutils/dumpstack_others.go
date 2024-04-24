@@ -6,8 +6,8 @@ package signalutils
 import (
 	"syscall"
 
+	"github.com/nyl1001/log"
 	"github.com/nyl1001/pkg/utils"
-	"yunion.io/x/log"
 )
 
 func SetDumpStackSignal() {

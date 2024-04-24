@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"yunion.io/x/log"
+	"github.com/nyl1001/log"
 )
 
 /*
